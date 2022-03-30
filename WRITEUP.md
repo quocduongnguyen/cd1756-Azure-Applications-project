@@ -11,14 +11,9 @@
 |   Autoscaling  | Virtual machine scale sets            | Built-in service                       |                              |
 |   Load balancer| Azure Load Balancer                   | Integrated                             |                              |
 |   Scale limit  | Platform image: 1000 nodes per scale set, Custom image: 600 nodes per scale set| 30 instances, 100 with App Service Environment, maximum of 14GB of memory and 4 vCPU cores per instance|                              |
+| Availability   | For any Single Instance Virtual Machine using Standard HDD Managed Disks for Operating System Disks and Data Disks, we guarantee you will have Virtual Machine Connectivity of at least 95%| Guarantee that Apps running in a customer subscription will be available 99.95% of the time. No SLA is provided for Apps under either the Free or Shared tiers. | Not a concern|
+| Workflow       | Configuration of the application server/framework in the VM | Instant deployment. Vertical scaling, without having to redeploy| Simpler and faster|
 |                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
-
-- Analyze costs: App Service is cheaper than VM, scalability: this web app is using small resources and is less scalable so it is not a concern now, availability: both are highly available, VM is slightly better but it is not a concern now, and workflow: using App Service is simpler and faster
 - My solution is App Service for deploying the app
 - App Service has the advantage of being cheaper, simpler and faster to deploy, scalability and available is not a concern.
 - If the application has a high demand for availability, scalability, control the underlying OS, install software on the server or change languages, then VM is better.
