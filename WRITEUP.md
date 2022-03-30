@@ -3,6 +3,21 @@
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
 *For **both** a VM or App Service solution for the CMS app:*
+
+|                | Virtual Machines                      | App Service                            | Application needs            |
+| :------------- |:--------------------------------------| :--------------------------------------|:-----------------------------|
+| Cost (Minimum) | 1 A0 (1 vCPU, 0.75 GB RAM).           | Free Tier; 1 F1 (0 Core(s), 1 GB RAM,  |                              |
+|                | Monthly: $13.19                       |  1 GB Storage). Monthly: $0.00         |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+|                |                                       |                                        |                              |
+
 - Analyze costs: App Service is cheaper than VM, scalability: this web app is using small resources and is less scalable so it is not a concern now, availability: both are highly available, VM is slightly better but it is not a concern now, and workflow: using App Service is simpler and faster
 - My solution is App Service for deploying the app
 - App Service has the advantage of being cheaper, simpler and faster to deploy, scalability and available is not a concern.
