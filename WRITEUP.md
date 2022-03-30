@@ -22,5 +22,5 @@
 
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
 
-Link myWeb: https://duongnq9-project1-web.azurewebsites.net/
-My images in images folder
+- Link myWeb: https://duongnq9-project1-web.azurewebsites.net/
+- My images in images folder
