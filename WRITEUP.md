@@ -6,8 +6,8 @@
 
 |                | Virtual Machines                      | App Service                            | Application needs            |
 | :------------- |:--------------------------------------| :--------------------------------------|:-----------------------------|
-| Cost (Minimum) | 1 A0 (1 vCPU, 0.75 GB RAM). Monthly: $13.19          | Free Tier; 1 F1 (0 Core(s), 1 GB RAM,  |                              |
-|                |                                       |  1 GB Storage). Monthly: $0.00         |                              |
+| Cost (Minimum) | 1 A0 (1 vCPU, 0.75 GB RAM). Monthly: $13.19| Free Tier; 1 F1 (0 Core(s), 1 GB RAM, 1 GB Storage). Monthly: $0.00, enough to deploy the application| As cheap as possible|
+|                |                                       |                                        |                              |
 |                |                                       |                                        |                              |
 |                |                                       |                                        |                              |
 |                |                                       |                                        |                              |
