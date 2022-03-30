@@ -6,11 +6,11 @@
 
 |                | Virtual Machines                      | App Service                            | Application needs            |
 | :------------- |:--------------------------------------| :--------------------------------------|:-----------------------------|
-| Cost (Minimum) | 1 A0 (1 vCPU, 0.75 GB RAM). Monthly: $13.19| Free Tier; 1 F1 (0 Core(s), 1 GB RAM, 1 GB Storage). Monthly: $0.00, enough to deploy the application| As cheap as possible|
-|                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
-|                |                                       |                                        |                              |
+| Costs (Minimum)| 1 A0 (1 vCPU, 0.75 GB RAM). Monthly: $13.19| Free Tier; 1 F1 (0 Core(s), 1 GB RAM, 1 GB Storage). Monthly: $0.00, enough to deploy the application| As cheap as possible|
+| Scalability    |                                       |                                        | Not a concern                |
+|   Autoscaling  | Virtual machine scale sets            | Built-in service                       |                              |
+|   Load balancer| Azure Load Balancer                   | Integrated                             |                              |
+|   Scale limit  | Platform image: 1000 nodes per scale set, Custom image: 600 nodes per scale set| 30 instances, 100 with App Service Environment, maximum of 14GB of memory and 4 vCPU cores per instance|                              |
 |                |                                       |                                        |                              |
 |                |                                       |                                        |                              |
 |                |                                       |                                        |                              |
